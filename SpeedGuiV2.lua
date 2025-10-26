@@ -128,3 +128,30 @@ PlusButton.MouseButton1Click:Connect(function()
         expandFullGUI()
     end
 end)
+
+
+-- Discord Button
+
+local discordButton = Instance.new("TextButton")
+
+discordButton.Size = UDim2.new(1, -10, 0, 20)
+
+discordButton.Position = UDim2.new(0, 5, 0, 140)
+
+discordButton.BackgroundColor3 = Color3.fromRGB(60, 60, 200)
+
+discordButton.Text = "Join Discord"
+
+discordButton.TextColor3 = Color3.fromRGB(255, 255, 255)
+
+discordButton.TextSize = 10
+
+discordButton.Parent = gui2Frame
+
+discordButton.MouseButton1Click:Connect(function()
+
+setclipboard("") -- Copies link to clipboard
+
+    else
+            end
+end)
